@@ -1,7 +1,9 @@
-# Microprogramacion
+## Laboratorio #3
+### “Instrucciones básicas: instrucciones aritméticas”
 
-```
-Universidad Rafael Landivar  
-Carlos Andrés Morales Lara - 1171316  
-Curso de Microprogramación
-```
+_Objetivos:_
+
+-	Utilizar las instrucciones básicas en un programa sencillo, escrito en Lenguaje Ensamblador.
+
+-	Enfatizar en la utilización de las instrucciones de transferencia de control, de forma correcta y donde correspondan para solventar las primicias presentadas.
+
