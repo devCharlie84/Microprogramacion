@@ -19,13 +19,14 @@
 programa:               
     MOV AX, @DATA
     MOV DS, AX
-    MOV AX,0000h
-    MOV AL,0000h
+    
+	XOR AX,AX
     
 	MOV DX, OFFSET numero1
     MOV AH, 09h
     INT 21h
 	;leer numero1
+	XOR AX,AX
 	MOV AH, 01h
 	INT 21h
 	SUB AL,30h
@@ -40,6 +41,7 @@ programa:
     INT 21h
 
 	;leer numero2
+	XOR AX,AX
 	MOV AH, 01h
 	INT 21h
 	SUB AL,30h
@@ -50,21 +52,25 @@ programa:
 	INT 21h
 	
     ;suma
+	XOR AX,AX
     MOV AL, num1
     ADD AL, num2
     MOV suma, AL
     
 	;resta
+	XOR AX,AX
     MOV AL, num1
     SUB AL, num2
     MOV resta, AL
 	
 	;multiplicacion
+	XOR AX,AX
 	MOV AL, num1
     MUL num2
     MOV multiplicacion, AL
 	
 	;division
+	XOR AX,AX
 	MOV AL, num1
     DIV num2
     MOV division, AL

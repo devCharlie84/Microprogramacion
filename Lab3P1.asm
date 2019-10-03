@@ -19,31 +19,36 @@
 programa:               
     MOV AX, @DATA
     MOV DS, AX
-    MOV AX,0000h
-    MOV AL,0000h
     
+	XOR AX,AX
+	
     MOV AL, num1
     MOV num1, AL
     
+	XOR AX,AX
     MOV AL, num2
     MOV num2, AL
 
     ;suma
+	XOR AX,AX
     MOV AL, num1
     ADD AL, num2
     MOV suma, AL
     
 	;resta
+	XOR AX,AX
     MOV AL, num1
     SUB AL, num2
     MOV resta, AL
 	
 	;multiplicacion
+	XOR AX,AX
 	MOV AL, num1
     MUL num2
     MOV multiplicacion, AL
 	
 	;division
+	XOR AX,AX
 	MOV AL, num1
     DIV num2
     MOV division, AL
