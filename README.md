@@ -1,7 +1,3 @@
-# Microprogramacion
+## Laboratorio #4
+### “Instrucciones básicas: Saltos condicionales e incondicionales" 
 
-```
-Universidad Rafael Landivar  
-Carlos Andrés Morales Lara - 1171316  
-Curso de Microprogramación
-```
