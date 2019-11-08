@@ -1,7 +1,10 @@
-# Microprogramacion
+## Laboratorio #7
+### “Microsoft Macro Assembler”
 
-```
-Universidad Rafael Landivar  
-Carlos Andrés Morales Lara - 1171316  
-Curso de Microprogramación
-```
+_Objetivos:_
+
+Leer dos números desde teclado
+-Sumarlos
+-Restarlos
+-Decir cuál es el mayor o si son iguales
+
