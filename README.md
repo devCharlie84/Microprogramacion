@@ -3,8 +3,8 @@
 
 _Objetivos:_
 
-Leer dos números desde teclado
--Sumarlos
--Restarlos
--Decir cuál es el mayor o si son iguales
+Leer dos números desde teclado <br>
+-Sumarlos <br>
+-Restarlos <br>
+-Decir cuál es el mayor o si son iguales <br>
 
